@@ -1,3 +1,7 @@
 cv2
 numpy
 pdf2image
+gensim
+torch
+torchvision
+nltk

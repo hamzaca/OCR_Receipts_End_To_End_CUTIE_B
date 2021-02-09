@@ -1,0 +1,755 @@
+{
+    "text_boxes": [
+        {
+            "id": 5,
+            "bbox": [
+                598,
+                0,
+                705,
+                12
+            ],
+            "text": "——"
+        },
+        {
+            "id": 9,
+            "bbox": [
+                176,
+                0,
+                246,
+                30
+            ],
+            "text": "ww"
+        },
+        {
+            "id": 13,
+            "bbox": [
+                588,
+                39,
+                688,
+                86
+            ],
+            "text": "“Ry"
+        },
+        {
+            "id": 17,
+            "bbox": [
+                341,
+                275,
+                395,
+                306
+            ],
+            "text": "GREEN"
+        },
+        {
+            "id": 18,
+            "bbox": [
+                407,
+                276,
+                461,
+                307
+            ],
+            "text": "FIELD"
+        },
+        {
+            "id": 22,
+            "bbox": [
+                274,
+                312,
+                315,
+                327
+            ],
+            "text": "5305"
+        },
+        {
+            "id": 23,
+            "bbox": [
+                329,
+                312,
+                337,
+                328
+            ],
+            "text": "E"
+        },
+        {
+            "id": 24,
+            "bbox": [
+                351,
+                313,
+                427,
+                329
+            ],
+            "text": "PACIFIC"
+        },
+        {
+            "id": 25,
+            "bbox": [
+                440,
+                313,
+                494,
+                330
+            ],
+            "text": "COAST"
+        },
+        {
+            "id": 26,
+            "bbox": [
+                507,
+                314,
+                540,
+                330
+            ],
+            "text": "HWY"
+        },
+        {
+            "id": 30,
+            "bbox": [
+                295,
+                336,
+                337,
+                354
+            ],
+            "text": "Long"
+        },
+        {
+            "id": 31,
+            "bbox": [
+                350,
+                337,
+                412,
+                354
+            ],
+            "text": "Beach,"
+        },
+        {
+            "id": 32,
+            "bbox": [
+                428,
+                338,
+                449,
+                354
+            ],
+            "text": "CA"
+        },
+        {
+            "id": 33,
+            "bbox": [
+                462,
+                338,
+                516,
+                355
+            ],
+            "text": "90804"
+        },
+        {
+            "id": 37,
+            "bbox": [
+                329,
+                360,
+                380,
+                378
+            ],
+            "text": "(562)"
+        },
+        {
+            "id": 38,
+            "bbox": [
+                395,
+                362,
+                482,
+                379
+            ],
+            "text": "597-0906"
+        },
+        {
+            "id": 42,
+            "bbox": [
+                178,
+                409,
+                254,
+                426
+            ],
+            "text": "Server:"
+        },
+        {
+            "id": 43,
+            "bbox": [
+                269,
+                411,
+                346,
+                428
+            ],
+            "text": "Francis"
+        },
+        {
+            "id": 47,
+            "bbox": [
+                192,
+                443,
+                206,
+                445
+            ],
+            "text": "--"
+        },
+        {
+            "id": 48,
+            "bbox": [
+                248,
+                444,
+                575,
+                450
+            ],
+            "text": "ee"
+        },
+        {
+            "id": 49,
+            "bbox": [
+                547,
+                430,
+                587,
+                458
+            ],
+            "text": "es"
+        },
+        {
+            "id": 50,
+            "bbox": [
+                594,
+                446,
+                635,
+                449
+            ],
+            "text": "aE"
+        },
+        {
+            "id": 54,
+            "bbox": [
+                519,
+                414,
+                610,
+                431
+            ],
+            "text": "Station:"
+        },
+        {
+            "id": 55,
+            "bbox": [
+                625,
+                411,
+                637,
+                428
+            ],
+            "text": "3"
+        },
+        {
+            "id": 59,
+            "bbox": [
+                175,
+                460,
+                225,
+                478
+            ],
+            "text": "Order"
+        },
+        {
+            "id": 60,
+            "bbox": [
+                244,
+                462,
+                262,
+                477
+            ],
+            "text": "#:"
+        },
+        {
+            "id": 61,
+            "bbox": [
+                278,
+                462,
+                333,
+                479
+            ],
+            "text": "69923"
+        },
+        {
+            "id": 65,
+            "bbox": [
+                175,
+                486,
+                237,
+                504
+            ],
+            "text": "Table:"
+        },
+        {
+            "id": 66,
+            "bbox": [
+                254,
+                487,
+                284,
+                505
+            ],
+            "text": "BI1"
+        },
+        {
+            "id": 70,
+            "bbox": [
+                555,
+                465,
+                601,
+                482
+            ],
+            "text": "Dine"
+        },
+        {
+            "id": 71,
+            "bbox": [
+                620,
+                464,
+                638,
+                482
+            ],
+            "text": "In"
+        },
+        {
+            "id": 75,
+            "bbox": [
+                325,
+                524,
+                352,
+                526
+            ],
+            "text": "—"
+        },
+        {
+            "id": 76,
+            "bbox": [
+                406,
+                525,
+                433,
+                527
+            ],
+            "text": "aa"
+        },
+        {
+            "id": 77,
+            "bbox": [
+                489,
+                526,
+                516,
+                528
+            ],
+            "text": "ne"
+        },
+        {
+            "id": 81,
+            "bbox": [
+                532,
+                491,
+                612,
+                509
+            ],
+            "text": "Guests:"
+        },
+        {
+            "id": 82,
+            "bbox": [
+                628,
+                490,
+                640,
+                508
+            ],
+            "text": "2"
+        },
+        {
+            "id": 86,
+            "bbox": [
+                173,
+                540,
+                176,
+                555
+            ],
+            "text": "1"
+        },
+        {
+            "id": 87,
+            "bbox": [
+                192,
+                539,
+                260,
+                558
+            ],
+            "text": "Coffee"
+        },
+        {
+            "id": 91,
+            "bbox": [
+                594,
+                544,
+                642,
+                563
+            ],
+            "text": "3.00"
+        },
+        {
+            "id": 95,
+            "bbox": [
+                166,
+                565,
+                176,
+                583
+            ],
+            "text": "2"
+        },
+        {
+            "id": 96,
+            "bbox": [
+                191,
+                567,
+                247,
+                585
+            ],
+            "text": "Lunch"
+        },
+        {
+            "id": 100,
+            "bbox": [
+                582,
+                573,
+                643,
+                592
+            ],
+            "text": "u5.90"
+        },
+        {
+            "id": 104,
+            "bbox": [
+                168,
+                594,
+                172,
+                611
+            ],
+            "text": "1"
+        },
+        {
+            "id": 105,
+            "bbox": [
+                189,
+                594,
+                233,
+                612
+            ],
+            "text": "Coke"
+        },
+        {
+            "id": 109,
+            "bbox": [
+                596,
+                601,
+                644,
+                620
+            ],
+            "text": "3.00"
+        },
+        {
+            "id": 113,
+            "bbox": [
+                160,
+                650,
+                195,
+                668
+            ],
+            "text": "SUB"
+        },
+        {
+            "id": 114,
+            "bbox": [
+                212,
+                650,
+                275,
+                669
+            ],
+            "text": "TOTAL:"
+        },
+        {
+            "id": 118,
+            "bbox": [
+                585,
+                658,
+                647,
+                678
+            ],
+            "text": "51.90"
+        },
+        {
+            "id": 122,
+            "bbox": [
+                160,
+                678,
+                193,
+                696
+            ],
+            "text": "Tax"
+        },
+        {
+            "id": 123,
+            "bbox": [
+                210,
+                679,
+                226,
+                697
+            ],
+            "text": "1:"
+        },
+        {
+            "id": 127,
+            "bbox": [
+                598,
+                688,
+                648,
+                708
+            ],
+            "text": "4.68"
+        },
+        {
+            "id": 131,
+            "bbox": [
+                550,
+                726,
+                556,
+                728
+            ],
+            "text": "="
+        },
+        {
+            "id": 135,
+            "bbox": [
+                550,
+                721,
+                650,
+                726
+            ],
+            "text": "mm"
+        },
+        {
+            "id": 139,
+            "bbox": [
+                562,
+                727,
+                651,
+                732
+            ],
+            "text": "mEzomas"
+        },
+        {
+            "id": 143,
+            "bbox": [
+                155,
+                739,
+                223,
+                778
+            ],
+            "text": "TOTAL:"
+        },
+        {
+            "id": 147,
+            "bbox": [
+                576,
+                751,
+                654,
+                794
+            ],
+            "text": "$0.50"
+        },
+        {
+            "id": 151,
+            "bbox": [
+                260,
+                819,
+                369,
+                843
+            ],
+            "text": "5/26/2016"
+        },
+        {
+            "id": 152,
+            "bbox": [
+                388,
+                824,
+                484,
+                847
+            ],
+            "text": "12:53:10"
+        },
+        {
+            "id": 153,
+            "bbox": [
+                499,
+                828,
+                523,
+                848
+            ],
+            "text": "PM"
+        },
+        {
+            "id": 157,
+            "bbox": [
+                334,
+                885,
+                395,
+                907
+            ],
+            "text": "THANK"
+        },
+        {
+            "id": 158,
+            "bbox": [
+                409,
+                888,
+                455,
+                908
+            ],
+            "text": "You!"
+        },
+        {
+            "id": 162,
+            "bbox": [
+                136,
+                938,
+                302,
+                1000
+            ],
+            "text": "En"
+        }
+    ],
+    "fileds": [
+        {
+            "field_name": "O",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "DATE_SALE",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "ADDRESS_SELLER",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "DOC_NR",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "DATE_CREATION",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "ADDRESS_CONTRACTOR",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "VAT_ID_CONTRACTOR",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "PAYMENT_METHOD",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "VAT_ID_SELLER",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "PAYMENT_BANK_NR",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TOTAL_PAY",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TOTAL_CURRENCY",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TOTAL_TAX",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TOTAL_WITH_TAX",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "TOTAL_WITHOUT_TAX",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "DATE_PAYMENT",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "NAME_SELLER",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        },
+        {
+            "field_name": "NAME_CONTRACTOR",
+            "value_id": [],
+            "value_text": [],
+            "key_id": [],
+            "key_text": []
+        }
+    ],
+    "global_attributes": {
+        "file_id": "receipts_images/1000-receipt.jpg"
+    }
+}
