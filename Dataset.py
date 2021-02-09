@@ -1,5 +1,9 @@
-from torch.utils.data import Dataset,DataLoader
+from torch.utils.data import Dataset
 from gensim import corpora
+from matplotlib import cm
+from PIL import Image
+import os
+
 
 
 class Images_Labels_Dataset(Dataset):
@@ -8,7 +12,8 @@ class Images_Labels_Dataset(Dataset):
     def __init__(self, receipts_image_dir, receipt_JSON_dir, transforms=None):
         """
         Args:
-            root_dir (string): Directory with all the images.
+            receipts_image_dir : Directory with all the images.
+            receipt_JSON_dir   : directory of the receipts in json format after the OCR  been made.
             transform (callable, optional): Optional transform to be applied on a sample.
         """
         self.receipts_image_dir = receipts_image_dir
@@ -17,8 +22,7 @@ class Images_Labels_Dataset(Dataset):
         # preprare the  path for each receipt  in the root directory.
         receipts_images = os.listdir(receipts_image_dir)
         receipts_images.sort()
-        self.receipts_images = [os.path.join(receipts_image_dir, one_receipt_path) for one_receipt_path in
-                                receipts_images]
+        self.receipts_images = [os.path.join(receipts_image_dir, one_receipt_path) for one_receipt_path in receipts_images]
 
         # load bounding coordinates
         receipts_JSON = os.listdir(receipt_JSON_dir)
@@ -60,15 +64,16 @@ class Images_Labels_Dataset(Dataset):
 
     mask = np.where(np.array(mask) > 0, 1, 0)
 
-    img = torch.as_tensor(np.array(one_receipt_image), dtype=torch.float32)
+    image = torch.as_tensor(np.array(one_receipt_image), dtype=torch.float32)
     mask = torch.as_tensor(mask, dtype=torch.long).unsqueeze(0)
     grid = torch.as_tensor(np.array(grid), dtype=torch.long)
 
-    return img, grid, mask
+    return image, grid, mask
 
 
 def __len__(self):
-    return len(self.imgs)
+    """ get the length of the dataset by counting the number of receipts in the directory containing the receipts' images """
+    return len(self.receipts_images)
 
 
 

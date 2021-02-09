@@ -1,7 +1,11 @@
-cv2
-numpy
-pdf2image
-gensim
 torch
 torchvision
+cv2
+numpy
+matplotlib
+pdf2image
+gensim
 nltk
+PIL
+os
+

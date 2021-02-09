@@ -1,8 +1,5 @@
 import utilis
-import os
-import numpy as np
 from PIL import Image
-import cv2
 import pyocr
 import pyocr.builders
 
@@ -21,20 +18,7 @@ langs = tool.get_available_languages()
 print("Available languages: %s" % ", ".join(langs))
 lang = langs[0]+ '+'+langs[1]
 print("Will use lang '%s'" % (lang))
-""" 
-{
-    "text_boxes": [
-        {
-            "id": 1,
-            "bbox": [
-                115.20999908447266,
-                224.22000122070312,
-                264.5013845231798,
-                258.04998779296875
-            ],
-            "text": "Wystawiono:"
-        },
-"""
+
 
 def get_name_receipt_with_extention(receipt_name):
     index = receipt_name.index(".")
@@ -69,7 +53,7 @@ def ocr_one_image_to_json(receipt_name):
 
 
 
-
+## TODO : DO ocr for all receipts' images. Get the JSON format for all.
 ## Read all files names in the folder /receipts_images
 """
 receipts_names = os.listdir(path="receipts_images")

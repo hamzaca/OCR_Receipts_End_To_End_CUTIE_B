@@ -1,6 +1,5 @@
 from PIL import Image
 import pytesseract
-import sys
 import json
 
 
