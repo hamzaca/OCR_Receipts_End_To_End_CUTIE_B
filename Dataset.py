@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import Dataset
+import gensim
 from gensim import corpora
 from matplotlib import cm
 from PIL import Image
@@ -42,6 +43,13 @@ def build_mask(BoundingBoxes, image_width, image_height):
     for x_top_left,y_top_left,x_bottom_right,y_bottom_right in BoundingBoxes:
         mask[y_top_left: y_bottom_right, x_top_left: x_bottom_right] = 1
     return mask
+
+def token2id(gensim_dictionary, token):
+  """
+  Models input are numerical, thus we need to map words to integers
+  function which maps tokens to integers using gensim dictionary
+  """
+  return gensim_dictionary.token2id[token]
 
 
 
