@@ -3,7 +3,10 @@ import cv2
 import time
 from pdf2image import convert_from_path
 
-
+def get_name_receipt_without_extention(receipt_name):
+    """ get the name of the file without the extension so we can store the json file with the same name """
+    index = receipt_name.index(".")
+    return receipt_name[0:index]
 
 def check_extention_file(file_name) :
     """ Check if a file is a pdf or jpg or png or jpeg"""
